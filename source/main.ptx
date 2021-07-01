@@ -5,7 +5,7 @@
     <latex-image-preamble>\usepackage{tikz}</latex-image-preamble>
   </docinfo>
   <book xml:id="my-great-book">
-    <title>My Awesome Book</title>
+    <title>My Awesomer Book</title>
     <introduction>This doesn't take long. See?!</introduction>
     <xi:include href="./chapter-1.ptx" />
     <xi:include href="./chapter-2.ptx" />
