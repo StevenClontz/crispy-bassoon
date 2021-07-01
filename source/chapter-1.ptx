@@ -8,7 +8,7 @@
     <title>A section</title>
     <p>foo</p>
     <figure>
-      <caption>A frog</caption>
+      <caption>A froggie</caption>
       <image source="frog.jpg" width="50%">
         <description>A nice-looking frog with a longish
         description.</description>
