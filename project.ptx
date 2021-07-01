@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    This file provides the overall configuration for your PreTeXt
+    project. To edit the content of your document, open `source/main.ptx`
+    (default location).
+-->
+<project>
+  <targets>
+    <target name="html">
+	    <alias>html</alias>
+      <format>html</format>
+      <source>source/main.ptx</source>
+      <publication>publication/publication.ptx</publication>
+      <output-dir>output/html-custom</output-dir>
+      <publish-dir>docs</publish-dir>
+      <stringparam key="key" value="val"/>
+      <stringparam key="key2" value="val2"/>
+    </target>
+    <target name="pdf">
+	    <alias>pdf</alias>
+      <format engine="pdflatex">pdf</format>
+      <source>source/main.ptx</source>
+      <publication>publication/publication.ptx</publication>
+      <output-dir>output/pdf</output-dir>
+      <publish-dir>docs/pdf</publish-dir>
+    </target>
+  </targets>
+    <view>
+        <access>cocalc</access>
+    </view>
+  <config>
+      (pretext.cfg equivalent)
+  </config>
+</project>
