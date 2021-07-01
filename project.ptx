@@ -10,9 +10,15 @@
       <format>html</format>
       <source>source/main.ptx</source>
       <publication>publication/publication.ptx</publication>
-      <output-dir>output/html-custom</output-dir>
+      <output-dir>output/html</output-dir>
       <stringparam key="key" value="val"/>
       <stringparam key="key2" value="val2"/>
+    </target>
+    <target name="html-custom">
+      <format>html</format>
+      <source>source/main.ptx</source>
+      <publication>publication/publication.ptx</publication>
+      <output-dir>output/html-custom</output-dir>
     </target>
     <target name="pdf">
       <format engine="pdflatex">pdf</format>
